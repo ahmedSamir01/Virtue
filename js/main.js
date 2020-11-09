@@ -109,5 +109,10 @@ $(function () {
         
     });
     
+    // close when click somewhere
+    $(document).bind("click", function(e) {
+        if ($(".navbar-collapse").hasClass("show") && e.target !== document.querySelector(".show") && e.target !== document.querySelector(".navbar-toggler")) {$(".navbar-toggler").click()}
+    });
+    
 });
 
