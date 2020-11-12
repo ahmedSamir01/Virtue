@@ -4,6 +4,9 @@ $(function () {
     
     "use strict";
     
+    // trigger wow.js
+    new WOW({mobile:!1}).init();
+    
     $(".carousel").on("slide.bs.carousel", function () {
         touch: false;
     });
