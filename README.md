@@ -1,6 +1,6 @@
 # Virtue
 
-Website for An Independent Design And Development Agency (EliteCrop)
+Fully responsive website about Virtue application, consist of five pages.
 
 ## Used technologies:
 
